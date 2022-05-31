@@ -597,9 +597,12 @@
           </div>
         {%- endif -%}
       </a>
-      <a href="https://www.facebook.com/JORJAyourskinstylist" class="header__icon header__icon--cart link focus-inset" target="blank">
-        {{ "icon-fb.png" | asset_url | img_tag }}
-      </a>
+
+      <div class="header-social-icons">
+        <a href="https://www.facebook.com/JORJAyourskinstylist" class="header__icon header__icon--cart link focus-inset" target="blank">
+          {{ "icon-fb.png" | asset_url | img_tag }}
+        </a>
+      </div>
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>

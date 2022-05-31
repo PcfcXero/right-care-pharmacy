@@ -598,17 +598,15 @@
         {%- endif -%}
       </a>
 
-      <div class="header-social-icons">
-        <a href="https://www.facebook.com/JORJAyourskinstylist" class="header__icon link" target="blank">
-          {{ "icon-fb.png" | asset_url | img_tag : "Follow us on Facebook" }}
-        </a>
-        <a href="https://www.instagram.com/jorjaskinstylist/" class="header__icon link" target="blank">
-          {{ "icon-instagram.png" | asset_url | img_tag : "Follow us on Instagram" }}
-        </a>
-        <a href="mailto:hello@jorjaskinstylist.com" class="header__icon link" target="blank">
-          {{ "icon-email.png" | asset_url | img_tag : "Email Us" }}
-        </a>
-      </div>
+      <a href="https://www.facebook.com/JORJAyourskinstylist" class="header__icon link header_social_icons" target="blank">
+        {{ "icon-fb.png" | asset_url | img_tag : "Follow us on Facebook" }}
+      </a>
+      <a href="https://www.instagram.com/jorjaskinstylist/" class="header__icon link header_social_icons" target="blank">
+        {{ "icon-instagram.png" | asset_url | img_tag : "Follow us on Instagram" }}
+      </a>
+      <a href="mailto:hello@jorjaskinstylist.com" class="header__icon link header_social_icons" target="blank">
+        {{ "icon-email.png" | asset_url | img_tag : "Email Us" }}
+      </a>
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>

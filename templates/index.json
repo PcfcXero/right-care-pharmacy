@@ -35,8 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home-slider1.jpg",
-        "image_2": "shopify:\/\/shop_images\/home-slider2.jpg",
+        "image": "shopify:\/\/shop_images\/home-slider2.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,

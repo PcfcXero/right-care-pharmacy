@@ -491,6 +491,16 @@
     {%- endif -%}
 
     <div class="header__icons">
+      <a href="https://www.facebook.com/JORJAyourskinstylist" class="header__icon link header__icon--facebook" target="blank">
+        {{ "icon-fb.png" | asset_url | img_tag : "Follow us on Facebook" }}
+      </a>
+      <a href="https://www.instagram.com/jorjaskinstylist/" class="header__icon link" target="blank">
+        {{ "icon-instagram.png" | asset_url | img_tag : "Follow us on Instagram" }}
+      </a>
+      <a href="mailto:hello@jorjaskinstylist.com" class="header__icon link" target="blank">
+        {{ "icon-email.png" | asset_url | img_tag : "Email Us" }}
+      </a>
+
       <details-modal class="header__search">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
@@ -596,16 +606,6 @@
             <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
           </div>
         {%- endif -%}
-      </a>
-
-      <a href="https://www.facebook.com/JORJAyourskinstylist" class="header__icon link header__icon--facebook" target="blank">
-        {{ "icon-fb.png" | asset_url | img_tag : "Follow us on Facebook" }}
-      </a>
-      <a href="https://www.instagram.com/jorjaskinstylist/" class="header__icon link" target="blank">
-        {{ "icon-instagram.png" | asset_url | img_tag : "Follow us on Instagram" }}
-      </a>
-      <a href="mailto:hello@jorjaskinstylist.com" class="header__icon link" target="blank">
-        {{ "icon-email.png" | asset_url | img_tag : "Email Us" }}
       </a>
     </div>
   </header>
